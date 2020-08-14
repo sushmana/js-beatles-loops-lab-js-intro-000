@@ -24,13 +24,16 @@ function johnLennonFacts(facts){
 var  a="!!!";
 var i=0;
  while(i<=facts.length){
-   newFacts=console.log(`${facts[i]} ${a}`);
+   facts=console.log(`${facts[i]} ${a}`);
    ++i;
  }
- return newFacts;
+ return facts;
 }
 
 
 function iLoveTheBeatles(number){
-
+do{
+  for(i)
+  console.log("I love the Beatles!")
+}while()
 }
