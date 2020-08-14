@@ -34,7 +34,7 @@ var i=0;
 function iLoveTheBeatles(number){
   var i;
 do{
-emptyArray=console.log("I love the Beatles!");
+emptyArray[i]=console.log("I love the Beatles!");
   i++;
   return `${emptyArray} I love the Beatles!`;
 }while(i<15)
