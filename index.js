@@ -31,9 +31,3 @@ var i=0;
 }
 
 
-function iLoveTheBeatles(number){
-do{
-  for(i)
-  console.log("I love the Beatles!")
-}while()
-}
