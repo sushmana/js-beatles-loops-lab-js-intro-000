@@ -24,10 +24,10 @@ function johnLennonFacts(facts){
 var  a="!!!";
 var i=0;
  while(array.length < facts.length){
-   facts=console.log(`${facts[i]} ${a}`);
+   newFacts[i]=console.log(`${facts[i]} ${a}`);
    ++i;
  }
- return facts;
+ return newFacts;
 }
 
 
