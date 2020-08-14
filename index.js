@@ -29,3 +29,13 @@ var i=0;
  }
  return facts;
 }
+
+
+function iLoveTheBeatles(number){
+  int i;
+do{
+emptyArray=console.log("I love the Beatles!");
+  i++;
+  return `${emptyArray} I love the Beatles!`;
+}while(i<15)
+}
