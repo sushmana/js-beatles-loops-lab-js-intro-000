@@ -32,7 +32,7 @@ var i=0;
 
 
 function iLoveTheBeatles(number){
-  int i;
+  var i;
 do{
 emptyArray=console.log("I love the Beatles!");
   i++;
