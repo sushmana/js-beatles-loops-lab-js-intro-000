@@ -36,7 +36,7 @@ function iLoveTheBeatles(number){
 do{
 emptyArray[i]=console.log("I love the Beatles!");
   i++;
-  
+
 }while(i<15)
 return `${emptyArray} I love the Beatles!`;
 }
