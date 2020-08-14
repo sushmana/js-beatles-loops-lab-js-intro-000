@@ -32,10 +32,10 @@ var i=0;
 
 
 function iLoveTheBeatles(number){
-  var i;
+  var number;
 do{
-emptyArray[i]=console.log("I love the Beatles!");
-  i++;
+emptyArray[number]=console.log("I love the Beatles!");
+  number++;
   return `${emptyArray} I love the Beatles!`;
-}while(i<15)
+}while(number<15)
 }
