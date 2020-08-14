@@ -1,42 +1,27 @@
-var musiciansArray=new array();
-var instrumentsArray=new array();
-var number;
-const facts= [
-  "He was the last Beatle to learn to drive",
-  "He was never a vegetarian",
-  "He was a choir boy and boy scout",
-  "He hated the sound of his own voice"
-];
-const newFacts=new array();
-const emptyArray=new array();
-
-function theBeatlesPlay(musiciansArray,instrumentsArray){
-  var arr=new array();
-  for(let i=0;i<=musicianArray.length;i++){
-    for(let j=0;j<=instrumentsArray.length;j++){
-      console.log(`${i} plays ${j}`);
-    }
+function theBeatlesPlay(musicians, instruments) {
+  var array = [];
+  for (var i = 0; i < musicians.length; i++) {
+    array.push(musicians[i] + " plays " + instruments[i]);
   }
+  return array;
 }
 
-
-function johnLennonFacts(facts){
-var  a="!!!";
-var i=0;
- while(array.length < facts.length){
-   newFacts[i]=console.log(`${facts[i]} ${a}`);
-   ++i;
- }
- return newFacts;
+function johnLennonFacts() {
+  var facts = ["He was the last Beatle to learn to drive", "He was never a vegetarian", "He was a choir boy and boy scout", "He hated the sound of his own voice"];
+  var array = [];
+  var i = 0;
+  while (array.length < facts.length) {
+    array.push(facts[i] + "!!!");
+    i++;
+  }
+  return array;
 }
 
-
-function iLoveTheBeatles(number){
-  var i;
-do{
-emptyArray[i]=console.log("I love the Beatles!");
-  i++;
-
-}while(i<15)
-return `${emptyArray} I love the Beatles!`;
-}
+function iLoveTheBeatles(number) {
+  var array = [];
+  do {
+    array.push("I love the Beatles!");
+    number += 1
+  } while (number < 15);
+  return array;
+} 
